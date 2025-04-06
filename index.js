@@ -5,7 +5,7 @@ const app = express();
 
 const proxyTargets = {
   'm04.mecusto.de': '/page/toolu_01SoaJKk282FdspkNJeJWxaW/stadtwerke_kundenkommunikation.html',
-  'm05.mecusto.de': '/page/toolu_ABCXYZ123/stadtwerke_energieberater.html'
+  'm43.mecusto.de': '/page/toolu_011c6bWCRY1wPhJgTeWC4APu/stadtwerk_next_best_action_system.html'
 };
 
 app.use((req, res, next) => {
