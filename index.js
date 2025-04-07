@@ -10,7 +10,8 @@ const proxyTargets = {
 
 app.use((req, res, next) => {
   const host = req.headers.host;
-  const targetPath = proxyTargets[host];
+  const host = req.headers.host?.split(':')[0];
+  console.log('eingehender Host:', host);
 
   if (!targetPath) {
     return res.status(404).send('Keine passende Demo konfiguriert.');
