@@ -8,7 +8,7 @@ const proxyTargets = {
   'm43.mecusto.de': '/page/toolu_011c6bWCRY1wPhJgTeWC4APu/stadtwerk_next_best_action_system.html',
   'm03.mecusto.de': '/page/toolu_01Arp4bvkTE6voKnw1HsopkY/stadtwerke_produktbaukasten.html',
   'm50.mecusto.de': '/page/toolu_01FG6gsRY6PLNB3SXRs3yrYo/stadtwerke_preismanagement_tool.html',
-  'm60.mecusto.de': '/page/toolu_011c6bWCRY1wPhJgTeWC4APu/stadtwerk_next_best_action_system.html'
+  'm60.mecusto.de': '/page/toolu_01S7VySmybEX4Dqnz31oFVhz/stadtwerke_ki_service_portal_erweitert.html'
 };
 
 app.use((req, res, next) => {
